@@ -83,10 +83,10 @@ export const util = (() => {
       .getElementById("count-down")
       .getAttribute("data-time")
       .replace(" ", "T");
-    const count = new Date(until).getTime();
+    const targetDate = new Date("2025-02-23T00:00:00").getTime();
 
     setInterval(() => {
-      const distance = Math.abs(count - new Date().getTime());
+      const distance = Math.abs(targetDate - new Date().getTime());
 
       document.getElementById("day").innerText = Math.floor(
         distance / (1000 * 60 * 60 * 24)
