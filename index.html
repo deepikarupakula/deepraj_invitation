@@ -44,12 +44,12 @@
       }
       /* @media (orientation: portrait) {
         .home-section {
-          background-image: url('./assets/new/portrait_background.jpeg');
+          background-image: url('./assets/new/first_background_portrait.jpg');
         }
       }
       @media (orientation: landscape) {
         .home-section {
-          background-image: url('./assets/new/landscape_background.jpeg');
+          background-image: url('./assets/new/first_background_landscape.jpeg');
         }
       } */
     </style>
@@ -220,12 +220,12 @@
       <!-- Home -->
       <section
         id="home"
-        class="p-0 m-0 home-section"
         style="background-size: cover; color: #0d98ba;"
       >
       <div
         class="container-fluid p-0 m-0"
         style="
+          background-image: url('./assets/new/first_background_portrait.jpeg');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -239,7 +239,7 @@
               Getting married
             </h2>
             <div class="mx-auto" style="max-width: 250px;">
-              <img src="./assets/new/top_image.png" alt="bg" class="responsive-img" />
+              <img src="./assets/new/top_image_transparent.png" alt="bg" class="responsive-img" />
             </div>
             <h2 class="font-esthetic-dark my-4" style="font-size: 3rem">
               Dheeraj &amp; Deepika
@@ -275,7 +275,7 @@
           d="M0,160L48,144C96,128,192,96,288,106.7C384,117,480,171,576,165.3C672,160,768,96,864,96C960,96,1056,160,1152,154.7C1248,149,1344,75,1392,37.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg> -->
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 30"></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 10"></svg>
       <!-- Groom -->
       <section class="dark-section" id="mempelai">
         <div class="text-center"> 
@@ -429,7 +429,7 @@
         ></path>
       </svg> -->
       <!-- Empty View Box for Separation -->
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 30"></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 10"></svg>
       <!-- Description -->
       <div class="container">
         <div
@@ -479,9 +479,164 @@
           fill-opacity="1"
           d="M0,96L30,106.7C60,117,120,139,180,154.7C240,171,300,181,360,186.7C420,192,480,192,540,181.3C600,171,660,149,720,154.7C780,160,840,192,900,208C960,224,1020,224,1080,208C1140,192,1200,160,1260,138.7C1320,117,1380,107,1410,101.3L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
         ></path>
+        style="background-image: url('./assets/new/haldi_background.jpeg'); background-size: cover; background-position: center;
       </svg> -->
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 30"></svg>
-      <!-- Count down section -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 10"></svg>
+      <section class="dark-section" id="pellikoothuru" ">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="font-esthetic-dark py-3" style="font-size: 2rem">
+              Time to event
+            </h2>
+            <div class="border rounded-pill shadow py-2 px-4 mx-2 mb-4 ">
+              <div
+                class="row justify-content-center"
+                data-time="2024-11-14 07:30:00"
+                id="count-down"
+              >
+                <div class="col-3 p-1">
+                  <h2 class="d-inline m-0 p-0 font-esthetic-dark" id="hadli_day">19</h2>
+                  <small class="ms-1 me-0 my-0 p-0 d-inline"></small>
+                </div>
+                <div class="col-3 p-1">
+                  <h2 class="d-inline m-0 p-0 font-esthetic-dark" id="hadli_hour">02</h2>
+                  <small class="ms-1 me-0 my-0 p-0 d-inline"></small>
+                </div>
+                <!-- <div class="col-3 p-1">
+                  <h2 class="d-inline m-0 p-0" id="minute">0</h2>
+                  <small class="ms-1 me-0 my-0 p-0 d-inline"></small>
+                </div> -->
+                <div class="col-3 p-1">
+                  <h2 class="d-inline m-0 p-0 font-esthetic-dark" id="hadli_second">2025</h2>
+                  <small class="ms-1 me-0 my-0 p-0 d-inline"></small>
+                </div>
+              </div>
+            </div>
+            <p style="font-size: 0.9rem" class="font-esthetic-dark mt-4 py-2">
+              With each passing moment, our love grows stronger. The countdown
+              to forever has officially begun.
+            </p>
+            <!-- Love animation -->
+            <div class="position-relative">
+              <div class="position-absolute" style="top: 0%; right: 10%">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="48"
+                  height="48"
+                  fill="currentColor"
+                  class="opacity-50"
+                  onload="util.animate(this, 3000, 'animate-love')"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"
+                  />
+                </svg>
+              </div>
+            </div>
+
+            <div class="overflow-x-hidden">
+              <div class="py-2" data-aos="fade-right" data-aos-duration="1500">
+                <h2 class="font-esthetic-dark" style="font-size: 2rem">pellikoothuru</h2>
+                <p class="font-esthetic-dark">February 23, 2025, 10.12 AM</p>
+              </div>
+            </div>
+
+            <div class="py-2" data-aos="fade-up" data-aos-duration="1500">
+              <a
+                href="https://maps.app.goo.gl/MR8hY3Hj3NuYziWz7"
+                target="_blank"
+                class="font-esthetic-dark btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3"
+              >
+                <i class="fa-solid fa-map-location-dot me-2"></i>View Google
+                Maps
+              </a>
+              <p class="font-esthetic-dark mb-0 mt-1 mx-1 pb-4" style="font-size: 0.9rem">
+                Murali Resort ,Opposite Narayanapuram Colony Bus Stop, Poranki, Vijayawada, Andhra Pradesh, 521137.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 10"></svg> 
+      <section class="dark-section" id="pellikoduku">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="font-esthetic-dark py-3" style="font-size: 2rem">
+              Time to event
+            </h2>
+            <div class="border rounded-pill shadow py-2 px-4 mx-2 mb-4 ">
+              <div
+                class="row justify-content-center"
+                data-time="2024-11-14 07:30:00"
+                id="count-down"
+              >
+                <div class="col-3 p-1">
+                  <h2 class="d-inline m-0 p-0 font-esthetic-dark" id="hadli_day">19</h2>
+                  <small class="ms-1 me-0 my-0 p-0 d-inline"></small>
+                </div>
+                <div class="col-3 p-1">
+                  <h2 class="d-inline m-0 p-0 font-esthetic-dark" id="hadli_hour">02</h2>
+                  <small class="ms-1 me-0 my-0 p-0 d-inline"></small>
+                </div>
+                <!-- <div class="col-3 p-1">
+                  <h2 class="d-inline m-0 p-0" id="minute">0</h2>
+                  <small class="ms-1 me-0 my-0 p-0 d-inline"></small>
+                </div> -->
+                <div class="col-3 p-1">
+                  <h2 class="d-inline m-0 p-0 font-esthetic-dark" id="hadli_second">2025</h2>
+                  <small class="ms-1 me-0 my-0 p-0 d-inline"></small>
+                </div>
+              </div>
+            </div>
+            <p style="font-size: 0.9rem" class="font-esthetic-dark mt-4 py-2">
+              With each passing moment, our love grows stronger. The countdown
+              to forever has officially begun.
+            </p>
+            <!-- Love animation -->
+            <div class="position-relative">
+              <div class="position-absolute" style="top: 0%; right: 10%">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="48"
+                  height="48"
+                  fill="currentColor"
+                  class="opacity-50"
+                  onload="util.animate(this, 3000, 'animate-love')"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"
+                  />
+                </svg>
+              </div>
+            </div>
+
+            <div class="overflow-x-hidden">
+              <div class="py-2" data-aos="fade-right" data-aos-duration="1500">
+                <h2 class="font-esthetic-dark" style="font-size: 2rem">Pellikoduku</h2>
+                <p class="font-esthetic-dark">February 23, 2025, 10.12 AM</p>
+              </div>
+            </div>
+
+            <div class="py-2" data-aos="fade-up" data-aos-duration="1500">
+              <a
+                href="https://maps.app.goo.gl/MR8hY3Hj3NuYziWz7"
+                target="_blank"
+                class="font-esthetic-dark btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3"
+              >
+                <i class="fa-solid fa-map-location-dot me-2"></i>View Google
+                Maps
+              </a>
+              <p class="font-esthetic-dark mb-0 mt-1 mx-1 pb-4" style="font-size: 0.9rem">
+                Murali Resort ,Opposite Narayanapuram Colony Bus Stop, Poranki, Vijayawada, Andhra Pradesh, 521137.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 10"></svg>
+      <!-- Marraige Count down section -->
       <section class="dark-section" id="tanggal">
         <div class="container">
           <div class="text-center">
@@ -560,7 +715,83 @@
           </div>
         </div>
       </section>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 10"></svg>
+      <section class="dark-section" id="reception">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="font-esthetic-dark py-3" style="font-size: 2rem">
+              Time to event
+            </h2>
+            <div class="border rounded-pill shadow py-2 px-4 mx-2 mb-4 ">
+              <div
+                class="row justify-content-center"
+                data-time="2024-11-14 07:30:00"
+                id="count-down"
+              >
+                <div class="col-3 p-1">
+                  <h2 class="d-inline m-0 p-0 font-esthetic-dark" id="hadli_day">19</h2>
+                  <small class="ms-1 me-0 my-0 p-0 d-inline"></small>
+                </div>
+                <div class="col-3 p-1">
+                  <h2 class="d-inline m-0 p-0 font-esthetic-dark" id="hadli_hour">02</h2>
+                  <small class="ms-1 me-0 my-0 p-0 d-inline"></small>
+                </div>
+                <!-- <div class="col-3 p-1">
+                  <h2 class="d-inline m-0 p-0" id="minute">0</h2>
+                  <small class="ms-1 me-0 my-0 p-0 d-inline"></small>
+                </div> -->
+                <div class="col-3 p-1">
+                  <h2 class="d-inline m-0 p-0 font-esthetic-dark" id="hadli_second">2025</h2>
+                  <small class="ms-1 me-0 my-0 p-0 d-inline"></small>
+                </div>
+              </div>
+            </div>
+            <p style="font-size: 0.9rem" class="font-esthetic-dark mt-4 py-2">
+              With each passing moment, our love grows stronger. The countdown
+              to forever has officially begun.
+            </p>
+            <!-- Love animation -->
+            <div class="position-relative">
+              <div class="position-absolute" style="top: 0%; right: 10%">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="48"
+                  height="48"
+                  fill="currentColor"
+                  class="opacity-50"
+                  onload="util.animate(this, 3000, 'animate-love')"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"
+                  />
+                </svg>
+              </div>
+            </div>
 
+            <div class="overflow-x-hidden">
+              <div class="py-2" data-aos="fade-right" data-aos-duration="1500">
+                <h2 class="font-esthetic-dark" style="font-size: 2rem">Reception</h2>
+                <p class="font-esthetic-dark">February 23, 2025, 10.12 AM</p>
+              </div>
+            </div>
+
+            <div class="py-2" data-aos="fade-up" data-aos-duration="1500">
+              <a
+                href="https://maps.app.goo.gl/MR8hY3Hj3NuYziWz7"
+                target="_blank"
+                class="font-esthetic-dark btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3"
+              >
+                <i class="fa-solid fa-map-location-dot me-2"></i>View Google
+                Maps
+              </a>
+              <p class="font-esthetic-dark mb-0 mt-1 mx-1 pb-4" style="font-size: 0.9rem">
+                Murali Resort ,Opposite Narayanapuram Colony Bus Stop, Poranki, Vijayawada, Andhra Pradesh, 521137.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Love animation -->
       <div class="position-relative">
         <div class="position-absolute" style="top: 0%; left: 10%">
@@ -621,7 +852,7 @@
           </div>
         </div>
       </section>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 30"></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 10"></svg>
       <!-- Wave Separator -->
       <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -652,8 +883,8 @@
             <div class="col-auto">
               <small>
                 <i class="fa-brands fa-github me-1"></i
-                ><a target="_blank" href="https://github.com/Dheeraj123"
-                  >Dheeraj</a
+                ><a target="_blank" href="https://github.com/deepikarupakula/deepraj_invitation"
+                  >Deepika</a
                 >
               </small>
             </div>
