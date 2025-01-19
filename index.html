@@ -42,6 +42,16 @@
         max-width: 100%;
         height: auto;
       }
+      /* @media (orientation: portrait) {
+        .home-section {
+          background-image: url('./assets/new/portrait_background.jpeg');
+        }
+      }
+      @media (orientation: landscape) {
+        .home-section {
+          background-image: url('./assets/new/landscape_background.jpeg');
+        }
+      } */
     </style>
 
     
@@ -192,7 +202,7 @@
               <a class="nav-link" href="#mempelai">Groom & Bride</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#tanggal">Event</a>
+              <a class="nav-link" href="#tanggal">Events</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#gallery">Gallery</a>
@@ -210,8 +220,16 @@
       <!-- Home -->
       <section
         id="home"
-        class="p-0 m-0"
-        style="background-size: cover; color: indianred;"
+        class="p-0 m-0 home-section"
+        style="background-size: cover; color: #0d98ba;"
+      >
+      <div
+        class="container-fluid p-0 m-0"
+        style="
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        "
       >
         <div class="text-center pt-4 pb-0 px-0 m-0">
             <h2
@@ -246,12 +264,13 @@
 
           <p class="m-0 p-0">Scroll Down</p>
         </div>
+      </div>
       </section>
 
       <!-- Wave Separator -->
       <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="indianred"
+          fill="#0d98ba"
           fill-opacity="1"
           d="M0,160L48,144C96,128,192,96,288,106.7C384,117,480,171,576,165.3C672,160,768,96,864,96C960,96,1056,160,1152,154.7C1248,149,1344,75,1392,37.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
@@ -404,7 +423,7 @@
       <!-- Wave Separator -->
       <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="indianred"
+          fill="#0d98ba"
           fill-opacity="1"
           d="M0,192L40,181.3C80,171,160,149,240,149.3C320,149,400,171,480,165.3C560,160,640,128,720,128C800,128,880,160,960,186.7C1040,213,1120,235,1200,218.7C1280,203,1360,149,1400,122.7L1440,96L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
         ></path>
@@ -456,7 +475,7 @@
       <!-- Wave Separator -->
       <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="indianred"
+          fill="#0d98ba"
           fill-opacity="1"
           d="M0,96L30,106.7C60,117,120,139,180,154.7C240,171,300,181,360,186.7C420,192,480,192,540,181.3C600,171,660,149,720,154.7C780,160,840,192,900,208C960,224,1020,224,1080,208C1140,192,1200,160,1260,138.7C1320,117,1380,107,1410,101.3L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
         ></path>
@@ -571,7 +590,7 @@
           <div class="row">
             <div class="col-md-3 mb-4">
               <div class="border border-3 border-light shadow">
-              <img src="./assets/new/gallery1.png" alt="Gallery Image 1" class="img-fluid responsive-img" />
+              <img src="./assets/new/gallery1.png" alt="Gallery Image 1" class="img-fluid" />
               </div>
             </div>
             <div class="col-md-3 mb-4">
@@ -594,6 +613,11 @@
               <img src="./assets/new/gallery5.jpg" alt="Gallery Image 5" class="img-fluid" />
               </div>
             </div>
+            <div class="col-md-3 mb-4">
+              <div class="border border-3 border-light shadow">
+              <img src="./assets/new/gallery6.JPG" alt="Gallery Image 6" class="img-fluid" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -601,7 +625,7 @@
       <!-- Wave Separator -->
       <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="indianred"
+          fill="#0d98ba"
           fill-opacity="1"
           d="M0,96L30,106.7C60,117,120,139,180,154.7C240,171,300,181,360,186.7C420,192,480,192,540,181.3C600,171,660,149,720,154.7C780,160,840,192,900,208C960,224,1020,224,1080,208C1140,192,1200,160,1260,138.7C1320,117,1380,107,1410,101.3L1440,96L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"
         ></path>
@@ -669,7 +693,7 @@
 
           <div
             class="img-crop border border-3 border-light shadow mb-4 mx-auto"
-            style="background: indianred"
+            style="background:#0d98ba"
           >
             <img src="./assets/new/happy-wedding.gif" alt="background" />
           </div>

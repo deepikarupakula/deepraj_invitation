@@ -14,7 +14,7 @@ a.open-invitation {
 
 a.open-invitation:hover,
 a.open-invitation:focus {
-  outline: solid 1.5px indianred;
+  outline: solid 1.5px #0d98ba;
   transition: padding 0.5s;
   padding-inline-start: 15px;
 }
@@ -27,7 +27,7 @@ a.open-invitation:focus {
   border-bottom-right-radius: 2px;
   margin-left: auto;
   margin-right: auto;
-  background-color: indianred;
+  background-color:#0d98ba;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 .front {
@@ -40,7 +40,7 @@ a.open-invitation:focus {
   border-left: calc(40px / 2) solid transparent;
   border-right: calc(40px / 2) solid transparent;
   border-bottom: 11.5px solid transparent; /* a little smaller */
-  border-top: 13.5px solid indianred; /* a little larger */
+  border-top: 13.5px solid #12a7cc; /* a little larger */
   transform-origin: top;
   pointer-events: none;
   transform: rotateX(180deg);
@@ -48,9 +48,9 @@ a.open-invitation:focus {
   z-index: 1;
 }
 .pocket {
-  border-left: calc(40px / 2) solid rgb(218, 99, 99);
-  border-right: calc(40px / 2) solid rgb(218, 99, 99);
-  border-bottom: calc(25px / 2) solid rgb(218, 111, 111);
+  border-left: calc(40px / 2) solid #0d98ba;
+  border-right: calc(40px / 2) solid #0d98ba;
+  border-bottom: calc(25px / 2) solid #0d9bbe;
   border-top: calc(25px / 2) solid transparent;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
