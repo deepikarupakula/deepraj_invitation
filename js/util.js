@@ -185,6 +185,10 @@ export const util = (() => {
 
     // theme.showButtonChangeTheme();
     setTimeout(animation, 1500);
+
+    setTimeout(() => {
+      document.getElementById("mempelai").scrollIntoView({ behavior: "smooth" });
+    }, 6000);
   };
 
   const init = () => {
