@@ -29,13 +29,15 @@ body {
 
 .font-esthetic {
   font-family: "Dancing Script", system-ui !important;
-  color: #fff;
+  color: #fef0f0;
   font-weight: bolder;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
 }
 
 .font-esthetic-dark {
   font-family: "Dancing Script", system-ui !important;
-  color: rgb(84, 65, 70);
+  /* color: rgb(84, 65, 70); */
+  color: #000000;
   font-weight: bolder;
 }
 
