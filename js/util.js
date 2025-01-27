@@ -188,7 +188,7 @@ export const util = (() => {
 
     setTimeout(() => {
       document.getElementById("mempelai").scrollIntoView({ behavior: "smooth" });
-    }, 9999000);
+    }, 6000);
   };
 
   const init = () => {
